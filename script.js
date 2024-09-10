@@ -1,4 +1,9 @@
-var x = 10
-console.log("Halo Selamat datang!")
-consule.log("isi dari variable x adalah" + x)
-alert("selamat datang di Pembelajaran Java Script")
+alert("selamat datang..")
+var lagi = true
+while (lagi === true) {
+  var nama = prompt("masukkan nama:")
+  alert("halo" + nama)
+
+  lagi = confirm("coba lagi")
+}
+alert("terimakasih")
